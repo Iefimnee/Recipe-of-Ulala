@@ -3,30 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO Meta Tags (产品页需要动态替换) -->
-    <title>Royal Canin ミニ アダルト 成分解析 | Recipe of Ulala</title>
-    <meta name="description" content="Royal Canin ミニ アダルトの全成分を詳しく解説。鶏肉粉、米、とうもろこしなど、一つ一つの原材料の意味がわかります。">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="Royal Canin ミニ アダルト 成分解析">
-    <meta property="og:description" content="小型犬専用のフード。成分を詳しく解説します。">
-    <meta property="og:type" content="product">
-    <meta property="og:image" content="https://ulala.jp/assets/images/products/royal-canin-800.jpg">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://ulala.jp/product-royal-canin.html">
+    <meta name="description" content="[PRODUCT_NAME]の成分を詳しく解説。原材料の星級評価、栄養成分、適合性をわかりやすく説明します。">
+    <title>[PRODUCT_NAME] - 成分解析 | Recipe of Ulala</title>
     
     <!-- Favicon -->
-    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&family=Noto+Serif+JP:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
     
-    <!-- Stylesheet -->
+    <!-- Styles -->
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- OG Tags -->
+    <meta property="og:title" content="[PRODUCT_NAME] - Recipe of Ulala">
+    <meta property="og:description" content="[PRODUCT_NAME]の成分を詳しく解説">
+    <meta property="og:image" content="https://ulala.jp/assets/images/og-image.jpg">
+    <meta property="og:url" content="https://ulala.jp/product-[PRODUCT_ID].html">
 </head>
 <body>
 
@@ -34,524 +29,328 @@
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <div class="logo">
-                    <a href="index.html">
-                        <span class="logo-text">Recipe of Ulala</span>
-                        <span class="logo-subtitle">一匹一匹に、答えを。</span>
-                    </a>
-                </div>
-                
-                <nav class="nav" id="mainNav">
+                <a href="index.html" class="logo">Recipe of Ulala</a>
+                <nav class="nav">
                     <ul class="nav-list">
-                        <li><a href="index.html" class="nav-link">ホーム</a></li>
+                        <li><a href="index.html" class="nav-link">トップ</a></li>
                         <li><a href="index.html#products" class="nav-link">商品一覧</a></li>
-                        <li><a href="contact.html" class="nav-link">お問い合わせ</a></li>
+                        <li><a href="privacy.html" class="nav-link">プライバシー</a></li>
                     </ul>
                 </nav>
-                
-                <button class="menu-toggle" id="menuToggle" aria-label="メニュー">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
             </div>
         </div>
     </header>
 
-    <!-- ========== Breadcrumb ========== -->
-    <div class="breadcrumb">
-        <div class="container">
-            <a href="index.html">ホーム</a>
-            <span class="separator">›</span>
-            <a href="index.html#products">商品一覧</a>
-            <span class="separator">›</span>
-            <span class="current">Royal Canin ミニ アダルト</span>
+    <!-- ========== Main Content ========== -->
+    <main>
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <div class="container">
+                <a href="index.html">トップ</a>
+                <span class="separator">›</span>
+                <a href="index.html#products">商品一覧</a>
+                <span class="separator">›</span>
+                <span class="current">[PRODUCT_NAME]</span>
+            </div>
         </div>
-    </div>
 
-    <!-- ========== Product Detail ========== -->
-    <main class="product-detail">
         <div class="container">
             
             <!-- ========== 1. Product Overview ========== -->
             <section class="product-overview">
                 <div class="product-main">
                     <div class="product-image-large">
-                        <img src="assets/images/products/royal-canin-800.jpg" 
-                             alt="Royal Canin ミニ アダルト">
+                        <img src="assets/images/products/[PRODUCT_ID]-800.jpg" 
+                             alt="[PRODUCT_NAME]" 
+                             loading="lazy">
                     </div>
                     
                     <div class="product-basic-info">
-                        <h1 class="product-title">Royal Canin ミニ アダルト</h1>
+                        <h1 class="product-title">[PRODUCT_NAME]</h1>
                         
                         <div class="product-rating">
-                            <span class="stars">⭐⭐⭐⭐⭐</span>
-                            <span class="score">4.5</span>
+                            <span class="stars">⭐⭐⭐⭐</span>
+                            <span class="score">4.2</span>
                             <span class="count">(1,234件)</span>
                         </div>
                         
-                        <div class="product-price-large">¥4,580 <span class="unit">/ 2kg</span></div>
+                        <div class="product-price-large">¥5,280<span class="unit"> / 3kg</span></div>
                         
                         <div class="product-tags-large">
-                            <span class="tag">小型犬</span>
-                            <span class="tag">成犬（1-10歳）</span>
-                            <span class="tag">室内飼い</span>
+                            <span class="tag">小型犬向け</span>
+                            <span class="tag">成犬用</span>
+                            <span class="tag">室内犬</span>
                         </div>
                         
                         <div class="product-highlights">
                             <h3>特徴</h3>
                             <ul>
-                                <li>✓ 小型犬の健康維持に最適な栄養バランス</li>
-                                <li>✓ 皮膚・被毛の健康をサポート</li>
-                                <li>✓ 消化吸収性に配慮した独自処方</li>
-                                <li>✓ 歯の健康維持をサポート</li>
+                                <li>小型犬の健康維持に配慮した栄養バランス</li>
+                                <li>消化性の高い原材料を使用</li>
+                                <li>室内飼育の小型犬に最適</li>
                             </ul>
                         </div>
+                        
+                        <a href="[AMAZON_LINK]" class="amazon-button" target="_blank" rel="noopener noreferrer">
+                            Amazonで見る →
+                        </a>
                     </div>
                 </div>
             </section>
 
-            <!-- ========== 2. Suitability Check (自測功能) ========== -->
-            <section class="suitability-check">
-                <h2 class="section-title-small">💭 このフードはうちの子に合う？</h2>
-                <p class="section-subtitle-small">4つの項目をチェックしてください</p>
-                
-                <div class="checkbox-group" id="suitabilityCheckboxes">
-                    <label class="checkbox-item">
-                        <input type="checkbox" name="suitability" value="size" data-requirement="small">
-                        <span class="checkbox-label">小型犬（10kg以下）</span>
-                    </label>
-                    
-                    <label class="checkbox-item">
-                        <input type="checkbox" name="suitability" value="age" data-requirement="adult">
-                        <span class="checkbox-label">成犬（1-7歳）</span>
-                    </label>
-                    
-                    <label class="checkbox-item">
-                        <input type="checkbox" name="suitability" value="allergy" data-requirement="no-chicken-allergy">
-                        <span class="checkbox-label">鶏肉アレルギーなし</span>
-                    </label>
-                    
-                    <label class="checkbox-item">
-                        <input type="checkbox" name="suitability" value="lifestyle" data-requirement="indoor">
-                        <span class="checkbox-label">室内飼い</span>
-                    </label>
-                </div>
-                
-                <button class="check-button" onclick="checkSuitability()">チェックする</button>
-                
-                <div class="check-result" id="checkResult" style="display: none;">
-                    <!-- Results will be inserted here by JavaScript -->
+            <!-- ========== 2. 💡 一句话总结（新增！）========== -->
+            <section class="product-summary">
+                <h2 class="summary-icon">💡</h2>
+                <h3 class="summary-title">一言で言うと</h3>
+                <p class="summary-text">
+                    小型犬向けの定番フード。穀物入りだが品質は信頼できる。鶏肉アレルギーがなければおすすめ。
+                </p>
+            </section>
+
+            <!-- ========== 3. ⚠️ 过敏原标识（新增！）========== -->
+            <section class="allergen-section">
+                <h2 class="section-title-small">⚠️ アレルゲン表示</h2>
+                <div class="allergen-tags">
+                    <span class="allergen yes">🐔 鶏肉 ✓</span>
+                    <span class="allergen yes">🌾 穀物 ✓</span>
+                    <span class="allergen no">🐄 牛肉 ✗</span>
+                    <span class="allergen no">🥛 乳製品 ✗</span>
+                    <span class="allergen no">🥚 卵 ✗</span>
+                    <span class="allergen no">🐟 魚 ✗</span>
                 </div>
             </section>
 
-            <!-- ========== 3. Ingredients (成分列表) ========== -->
+            <!-- ========== 4. 原材料分析 ========== -->
             <section class="ingredients-section">
-                <h2 class="section-title-small">⭐ 原材料</h2>
-                <p class="section-subtitle-small">主要な成分を星で評価しています（クリックで詳細表示）</p>
+                <h2 class="section-title-small">⭐ 原材料分析</h2>
+                <p class="section-subtitle-small">各成分の詳細は「詳しく」をクリック</p>
                 
                 <div class="ingredients-list">
                     
-                    <!-- Ingredient 1: 鶏肉粉 -->
-                    <div class="ingredient-item">
-                        <div class="ingredient-header" onclick="toggleIngredient('chicken-meal')">
-                            <div class="ingredient-name-rating">
-                                <span class="ingredient-name">鶏肉粉（チキンミール）</span>
-                                <span class="ingredient-rating">⭐⭐⭐⭐⭐</span>
-                                <span class="ingredient-badge good">良質なタンパク源</span>
-                            </div>
-                            <span class="toggle-icon" id="icon-chicken-meal">▼</span>
-                        </div>
+                    <!-- 🥩 タンパク源 -->
+                    <div class="ingredient-category">
+                        <h3 class="category-title">🥩 タンパク源</h3>
                         
-                        <div class="ingredient-detail" id="detail-chicken-meal" style="display: none;">
-                            <div class="ingredient-explanation">
-                                <h4>📖 この成分について</h4>
-                                <p>鶏肉を乾燥させて粉末にしたもの。水分と脂肪を取り除いているため、タンパク質含有率が約60-70%と非常に高く、犬の筋肉や被毛の健康維持に必要な必須アミノ酸を豊富に含みます。</p>
-                                
-                                <div class="ingredient-pros-cons">
-                                    <div class="pros">
-                                        <h5>✅ メリット</h5>
-                                        <ul>
-                                            <li>高品質なタンパク質源（60-70%）</li>
-                                            <li>必須アミノ酸が豊富</li>
-                                            <li>消化吸収率が高い</li>
-                                        </ul>
-                                    </div>
-                                    
-                                    <div class="cons">
-                                        <h5>⚠️ 注意点</h5>
-                                        <ul>
-                                            <li>鶏肉アレルギーの犬には不向き</li>
-                                            <li>品質は製造元により差がある</li>
-                                        </ul>
-                                    </div>
+                        <div class="ingredient-item">
+                            <div class="ingredient-header">
+                                <div class="ingredient-name-stars">
+                                    <h4 class="ingredient-name">鶏肉粉（チキンミール）</h4>
+                                    <div class="ingredient-stars">⭐⭐⭐⭐⭐</div>
                                 </div>
+                                <p class="ingredient-brief">良質なタンパク源</p>
+                                <button class="ingredient-toggle" onclick="toggleIngredient('chicken_meal')">
+                                    詳しく ▼
+                                </button>
                             </div>
                             
-                            <div class="related-products">
-                                <h5>💡 この成分を使っている他のフード</h5>
-                                <div class="related-product-chips">
-                                    <a href="product-nutro.html" class="related-chip">Nutro</a>
-                                    <a href="product-umaka.html" class="related-chip">うまか</a>
+                            <div class="ingredient-detail" id="detail-chicken_meal" style="display: none;">
+                                <h5>📖 これは何？</h5>
+                                <p>鶏肉を乾燥させて粉末にしたもので、生肉よりも高濃度のタンパク質（約60-70%）を含みます。犬の筋肉や被毛の健康維持に必要な必須アミノ酸が豊富です。</p>
+                                
+                                <h5>✅ メリット</h5>
+                                <ul>
+                                    <li>高品質なタンパク質源（60-70%）</li>
+                                    <li>必須アミノ酸が豊富</li>
+                                    <li>消化吸収率が高い</li>
+                                </ul>
+                                
+                                <h5>⚠️ 注意点</h5>
+                                <ul>
+                                    <li>鶏肉アレルギーの犬には不向き</li>
+                                    <li>品質は製造元により差がある</li>
+                                </ul>
+                                
+                                <div class="ingredient-related">
+                                    <h5>🔗 この成分を使っている他のフード</h5>
+                                    <div class="related-products-mini">
+                                        <a href="product-nutro.html">Nutro</a>
+                                        <a href="product-acana.html">Acana</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Ingredient 2: 米 -->
-                    <div class="ingredient-item">
-                        <div class="ingredient-header" onclick="toggleIngredient('rice')">
-                            <div class="ingredient-name-rating">
-                                <span class="ingredient-name">米</span>
-                                <span class="ingredient-rating">⭐⭐⭐⭐</span>
-                                <span class="ingredient-badge good">消化に良い</span>
-                            </div>
-                            <span class="toggle-icon" id="icon-rice">▼</span>
                         </div>
                         
-                        <div class="ingredient-detail" id="detail-rice" style="display: none;">
-                            <div class="ingredient-explanation">
-                                <h4>📖 この成分について</h4>
-                                <p>消化吸収しやすい炭水化物源。エネルギー源として優れており、小麦と比べてアレルギーのリスクが低いのが特徴です。日本の犬にとって馴染み深い食材でもあります。</p>
-                                
-                                <div class="ingredient-pros-cons">
-                                    <div class="pros">
-                                        <h5>✅ メリット</h5>
-                                        <ul>
-                                            <li>消化吸収が良い</li>
-                                            <li>アレルギーリスクが低い</li>
-                                            <li>安定したエネルギー源</li>
-                                        </ul>
-                                    </div>
-                                    
-                                    <div class="cons">
-                                        <h5>⚠️ 注意点</h5>
-                                        <ul>
-                                            <li>穀物を避けたい場合は不向き</li>
-                                            <li>過剰摂取は肥満の原因に</li>
-                                        </ul>
-                                    </div>
+                        <!-- 更多蛋白质来源成分... -->
+                    </div>
+
+                    <!-- 🌾 炭水化物源 -->
+                    <div class="ingredient-category">
+                        <h3 class="category-title">🌾 炭水化物源</h3>
+                        
+                        <div class="ingredient-item">
+                            <div class="ingredient-header">
+                                <div class="ingredient-name-stars">
+                                    <h4 class="ingredient-name">米</h4>
+                                    <div class="ingredient-stars">⭐⭐⭐⭐</div>
                                 </div>
+                                <p class="ingredient-brief">消化に良い炭水化物</p>
+                                <button class="ingredient-toggle" onclick="toggleIngredient('rice')">
+                                    詳しく ▼
+                                </button>
                             </div>
                             
-                            <div class="related-products">
-                                <h5>💡 この成分を使っている他のフード</h5>
-                                <div class="related-product-chips">
-                                    <a href="product-nutro.html" class="related-chip">Nutro</a>
-                                    <a href="product-konoko.html" class="related-chip">このこのごはん</a>
-                                </div>
+                            <div class="ingredient-detail" id="detail-rice" style="display: none;">
+                                <h5>📖 これは何？</h5>
+                                <p>犬にとって消化しやすい炭水化物源。エネルギー供給に優れ、胃腸に優しい特徴があります。</p>
+                                
+                                <h5>✅ メリット</h5>
+                                <ul>
+                                    <li>消化吸収が良い</li>
+                                    <li>アレルギーが起こりにくい</li>
+                                    <li>安定したエネルギー源</li>
+                                </ul>
+                                
+                                <h5>⚠️ 注意点</h5>
+                                <ul>
+                                    <li>過剰摂取は肥満の原因に</li>
+                                </ul>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Ingredient 3: とうもろこし -->
-                    <div class="ingredient-item">
-                        <div class="ingredient-header" onclick="toggleIngredient('corn')">
-                            <div class="ingredient-name-rating">
-                                <span class="ingredient-name">とうもろこし</span>
-                                <span class="ingredient-rating">⭐⭐⭐</span>
-                                <span class="ingredient-badge caution">アレルギーに注意</span>
-                            </div>
-                            <span class="toggle-icon" id="icon-corn">▼</span>
                         </div>
                         
-                        <div class="ingredient-detail" id="detail-corn" style="display: none;">
-                            <div class="ingredient-explanation">
-                                <h4>📖 この成分について</h4>
-                                <p>エネルギー源となる穀物。食物繊維も豊富に含みますが、一部の犬にはアレルギー反応を起こす可能性があります。消化には個体差があります。</p>
-                                
-                                <div class="ingredient-pros-cons">
-                                    <div class="pros">
-                                        <h5>✅ メリット</h5>
-                                        <ul>
-                                            <li>エネルギー源として有効</li>
-                                            <li>食物繊維が豊富</li>
-                                            <li>コストパフォーマンスが良い</li>
-                                        </ul>
-                                    </div>
-                                    
-                                    <div class="cons">
-                                        <h5>⚠️ 注意点</h5>
-                                        <ul>
-                                            <li>アレルギーの可能性がある</li>
-                                            <li>消化に個体差がある</li>
-                                            <li>グレインフリーを好む場合は不向き</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="related-products">
-                                <h5>💡 この成分を使っている他のフード</h5>
-                                <div class="related-product-chips">
-                                    <span class="related-chip-note">グレインフリーをお探しなら</span>
-                                    <a href="product-acana.html" class="related-chip">Acana</a>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- 更多碳水化合物成分... -->
                     </div>
                     
-                    <!-- Ingredient 4: 動物性脂肪 -->
-                    <div class="ingredient-item">
-                        <div class="ingredient-header" onclick="toggleIngredient('animal-fat')">
-                            <div class="ingredient-name-rating">
-                                <span class="ingredient-name">動物性脂肪</span>
-                                <span class="ingredient-rating">⭐⭐⭐⭐</span>
-                                <span class="ingredient-badge good">エネルギー源</span>
-                            </div>
-                            <span class="toggle-icon" id="icon-animal-fat">▼</span>
-                        </div>
-                        
-                        <div class="ingredient-detail" id="detail-animal-fat" style="display: none;">
-                            <div class="ingredient-explanation">
-                                <h4>📖 この成分について</h4>
-                                <p>犬に必要な脂肪酸を供給する重要な成分。皮膚や被毛の健康維持、エネルギー源として重要な役割を果たします。嗜好性を高める効果もあります。</p>
-                                
-                                <div class="ingredient-pros-cons">
-                                    <div class="pros">
-                                        <h5>✅ メリット</h5>
-                                        <ul>
-                                            <li>必須脂肪酸を供給</li>
-                                            <li>皮膚・被毛の健康維持</li>
-                                            <li>嗜好性が高い</li>
-                                        </ul>
-                                    </div>
-                                    
-                                    <div class="cons">
-                                        <h5>⚠️ 注意点</h5>
-                                        <ul>
-                                            <li>過剰摂取は肥満の原因</li>
-                                            <li>酸化防止剤の確認が必要</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <!-- 🧈 脂肪・油脂 -->
+                    <div class="ingredient-category">
+                        <h3 class="category-title">🧈 脂肪・油脂</h3>
+                        <!-- 脂肪类成分... -->
                     </div>
                     
-                    <!-- Ingredient 5: 魚油 -->
-                    <div class="ingredient-item">
-                        <div class="ingredient-header" onclick="toggleIngredient('fish-oil')">
-                            <div class="ingredient-name-rating">
-                                <span class="ingredient-name">魚油</span>
-                                <span class="ingredient-rating">⭐⭐⭐⭐⭐</span>
-                                <span class="ingredient-badge excellent">オメガ3配合</span>
-                            </div>
-                            <span class="toggle-icon" id="icon-fish-oil">▼</span>
-                        </div>
-                        
-                        <div class="ingredient-detail" id="detail-fish-oil" style="display: none;">
-                            <div class="ingredient-explanation">
-                                <h4>📖 この成分について</h4>
-                                <p>EPA・DHAなどのオメガ3脂肪酸を豊富に含む優秀な成分。皮膚・被毛の健康、関節の健康、脳の発達に有益です。</p>
-                                
-                                <div class="ingredient-pros-cons">
-                                    <div class="pros">
-                                        <h5>✅ メリット</h5>
-                                        <ul>
-                                            <li>オメガ3脂肪酸が豊富</li>
-                                            <li>皮膚・被毛の健康維持</li>
-                                            <li>関節・脳の健康サポート</li>
-                                            <li>抗炎症作用</li>
-                                        </ul>
-                                    </div>
-                                    
-                                    <div class="cons">
-                                        <h5>⚠️ 注意点</h5>
-                                        <ul>
-                                            <li>酸化しやすいため保存に注意</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="related-products">
-                                <h5>💡 この成分を使っている他のフード</h5>
-                                <div class="related-product-chips">
-                                    <a href="product-acana.html" class="related-chip">Acana</a>
-                                    <a href="product-konoko.html" class="related-chip">このこのごはん</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+                    <!-- 其他分类... -->
                 </div>
             </section>
 
-            <!-- ========== 4. Nutrition (栄養成分) ========== -->
+            <!-- ========== 5. 栄養成分 ========== -->
             <section class="nutrition-section">
                 <h2 class="section-title-small">📊 栄養成分</h2>
-                
                 <div class="nutrition-table">
                     <div class="nutrition-row">
-                        <div class="nutrition-label">粗タンパク質</div>
-                        <div class="nutrition-value">27.0%以上</div>
+                        <span class="nutrition-label">粗タンパク質</span>
+                        <span class="nutrition-value">27.0%</span>
                     </div>
                     <div class="nutrition-row">
-                        <div class="nutrition-label">粗脂肪</div>
-                        <div class="nutrition-value">16.0%以上</div>
+                        <span class="nutrition-label">粗脂肪</span>
+                        <span class="nutrition-value">16.0%</span>
                     </div>
                     <div class="nutrition-row">
-                        <div class="nutrition-label">粗繊維</div>
-                        <div class="nutrition-value">1.7%以下</div>
+                        <span class="nutrition-label">粗繊維</span>
+                        <span class="nutrition-value">1.7%</span>
                     </div>
                     <div class="nutrition-row">
-                        <div class="nutrition-label">粗灰分</div>
-                        <div class="nutrition-value">5.7%以下</div>
-                    </div>
-                    <div class="nutrition-row">
-                        <div class="nutrition-label">水分</div>
-                        <div class="nutrition-value">9.5%以下</div>
-                    </div>
-                    <div class="nutrition-row highlight">
-                        <div class="nutrition-label">カロリー</div>
-                        <div class="nutrition-value">403kcal / 100g</div>
+                        <span class="nutrition-label">カロリー</span>
+                        <span class="nutrition-value">403kcal/100g</span>
                     </div>
                 </div>
             </section>
 
-            <!-- ========== 5. Recommendations (推薦・注意) ========== -->
-            <section class="recommendations-section">
+            <!-- ========== 6. 适合/不适合 ========== -->
+            <section class="recommendation-section">
+                <h2 class="section-title-small">✅⚠️ こんな子におすすめ / 注意</h2>
                 <div class="recommendation-columns">
                     <div class="recommendation-box good">
-                        <h3>✅ こんな子におすすめ</h3>
+                        <h3>✅ おすすめ</h3>
                         <ul>
-                            <li>小型犬（体重10kg以下）</li>
-                            <li>成犬（1-10歳）</li>
-                            <li>室内で過ごすことが多い</li>
-                            <li>皮膚や被毛のケアが必要</li>
-                            <li>歯の健康を維持したい</li>
+                            <li>小型犬の成犬（1-10歳）</li>
+                            <li>室内飼い</li>
+                            <li>標準的な活動量</li>
                         </ul>
                     </div>
                     
                     <div class="recommendation-box caution">
-                        <h3>⚠️ こんな子は注意</h3>
+                        <h3>⚠️ 注意が必要</h3>
                         <ul>
                             <li>鶏肉アレルギーがある</li>
-                            <li>穀物アレルギーがある（とうもろこし・小麦）</li>
-                            <li>グレインフリーを希望する</li>
-                            <li>減量が必要（カロリー高め）</li>
-                            <li>中型犬・大型犬（粒が小さすぎる）</li>
+                            <li>グレインフリー希望</li>
+                            <li>体重管理が必要</li>
                         </ul>
                     </div>
                 </div>
             </section>
 
-            <!-- ========== 6. FAQ (よくある質問) ========== -->
+            <!-- ========== 7. FAQ ========== -->
             <section class="faq-section">
                 <h2 class="section-title-small">❓ よくある質問</h2>
-                
                 <div class="faq-list">
                     
                     <div class="faq-item">
                         <div class="faq-question" onclick="toggleFAQ(1)">
-                            <span class="faq-q-text">Q. 子犬にも与えられますか？</span>
+                            <span class="faq-q-text">子犬にも与えられますか？</span>
                             <span class="faq-toggle" id="faq-icon-1">▼</span>
                         </div>
                         <div class="faq-answer" id="faq-answer-1" style="display: none;">
-                            <p>このフードは成犬用（1-10歳）に設計されています。子犬には「Royal Canin ミニ パピー」など、子犬専用のフードをおすすめします。子犬期は成長に必要な栄養バランスが異なるため、適切なフードを選ぶことが大切です。</p>
+                            <p>このフードは成犬用に栄養バランスが設計されています。子犬には子犬用のフードをおすすめします。</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <div class="faq-question" onclick="toggleFAQ(2)">
-                            <span class="faq-q-text">Q. 穀物が入っていますが大丈夫ですか？</span>
+                            <span class="faq-q-text">穀物が入っているけど大丈夫？</span>
                             <span class="faq-toggle" id="faq-icon-2">▼</span>
                         </div>
                         <div class="faq-answer" id="faq-answer-2" style="display: none;">
-                            <p>米やとうもろこしなどの穀物は、消化吸収しやすい形で配合されています。ただし、穀物アレルギーがある犬には適していません。アレルギーの有無が不明な場合は、獣医師に相談されることをおすすめします。グレインフリーをお探しの場合は、Acanaなどの選択肢もあります。</p>
+                            <p>犬は適量の穀物を消化できます。このフードの穀物は消化しやすい米を使用しており、問題ありません。ただし、穀物アレルギーがある場合は避けてください。</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <div class="faq-question" onclick="toggleFAQ(3)">
-                            <span class="faq-q-text">Q. 保存方法を教えてください</span>
+                            <span class="faq-q-text">保存方法は？</span>
                             <span class="faq-toggle" id="faq-icon-3">▼</span>
                         </div>
                         <div class="faq-answer" id="faq-answer-3" style="display: none;">
-                            <p>開封後は、密閉できる容器に移し替え、直射日光を避けて涼しい場所で保管してください。高温多湿を避けることで、品質を保つことができます。開封後は1ヶ月以内に使い切ることをおすすめします。</p>
+                            <p>開封後は密閉容器に移し、直射日光を避けて涼しい場所で保管してください。1ヶ月以内に使い切ることをおすすめします。</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <div class="faq-question" onclick="toggleFAQ(4)">
-                            <span class="faq-q-text">Q. 1日の給餌量はどのくらいですか？</span>
+                            <span class="faq-q-text">1日の給餌量は？</span>
                             <span class="faq-toggle" id="faq-icon-4">▼</span>
                         </div>
                         <div class="faq-answer" id="faq-answer-4" style="display: none;">
-                            <p>体重や活動量によって異なります。目安として、体重3kgの犬で1日50-60g、体重5kgの犬で1日75-85gです。パッケージに記載されている給餌量表を参考にし、愛犬の体重や体調を見ながら調整してください。</p>
+                            <p>体重5kgの小型犬の場合、1日約90gが目安です。愛犬の活動量や体調に応じて調整してください。詳細はパッケージの給餌量表をご確認ください。</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <div class="faq-question" onclick="toggleFAQ(5)">
-                            <span class="faq-q-text">Q. 他のフードから切り替える方法は？</span>
+                            <span class="faq-q-text">他のフードから切り替える方法は？</span>
                             <span class="faq-toggle" id="faq-icon-5">▼</span>
                         </div>
                         <div class="faq-answer" id="faq-answer-5" style="display: none;">
-                            <p>急な切り替えは消化不良の原因となるため、7-10日かけて徐々に切り替えることをおすすめします。最初の2-3日は現在のフードに25%混ぜ、4-6日目は50%、7-9日目は75%と徐々に割合を増やし、10日目で完全に切り替えます。便の状態を観察しながら調整してください。</p>
+                            <p>急な切り替えは避け、7-10日かけて徐々に新しいフードの割合を増やしてください。1日目は新フード25%、3日目50%、5日目75%、7日目100%が目安です。</p>
                         </div>
                     </div>
                     
                 </div>
             </section>
 
-            <!-- ========== 7. Similar Products (相似产品) ========== -->
+            <!-- ========== 8. 简化版相关产品推荐（无相似度打分）========== -->
             <section class="similar-products-section">
-                <h2 class="section-title-small">💡 似ているフード</h2>
-                <p class="section-subtitle-small">成分や特徴が近い他のフードをご紹介</p>
-                
-                <div class="similar-products-list">
+                <h2 class="section-title-small">💡 こちらもチェック</h2>
+                <div class="simple-recommendations">
                     
-                    <!-- Similar Product 1 -->
-                    <div class="similar-product-card">
-                        <a href="product-nutro.html" class="similar-product-link">
-                            <div class="similar-product-header">
-                                <h4>Nutro ナチュラルチョイス 小型犬用</h4>
-                                <div class="similarity-bar">
-                                    <span class="similarity-label">類似度：</span>
-                                    <div class="similarity-progress">
-                                        <div class="similarity-fill" style="width: 85%;"></div>
-                                    </div>
-                                    <span class="similarity-percent">85%</span>
-                                </div>
-                            </div>
-                            
-                            <div class="similar-product-matches">
-                                <span class="match-badge">✓ 同じ鶏肉ベース</span>
-                                <span class="match-badge">✓ 価格帯が近い</span>
-                                <span class="match-badge">✓ 小型犬向け</span>
-                            </div>
-                            
-                            <div class="similar-product-cta">
-                                詳しく見る →
-                            </div>
+                    <div class="simple-rec-card">
+                        <a href="product-nutro.html">
+                            <img src="assets/images/products/nutro-400.jpg" alt="Nutro" loading="lazy">
+                            <h4>Nutro ナチュラルチョイス</h4>
+                            <p class="rec-reason">同じ鶏肉ベース、価格が手頃</p>
                         </a>
                     </div>
                     
-                    <!-- Similar Product 2 -->
-                    <div class="similar-product-card">
-                        <a href="product-konoko.html" class="similar-product-link">
-                            <div class="similar-product-header">
-                                <h4>このこのごはん</h4>
-                                <div class="similarity-bar">
-                                    <span class="similarity-label">類似度：</span>
-                                    <div class="similarity-progress">
-                                        <div class="similarity-fill" style="width: 72%;"></div>
-                                    </div>
-                                    <span class="similarity-percent">72%</span>
-                                </div>
-                            </div>
-                            
-                            <div class="similar-product-matches">
-                                <span class="match-badge">✓ 小型犬専用</span>
-                                <span class="match-badge">✓ 国産</span>
-                                <span class="match-badge">✓ 室内犬向け</span>
-                            </div>
-                            
-                            <div class="similar-product-cta">
-                                詳しく見る →
-                            </div>
+                    <div class="simple-rec-card">
+                        <a href="product-acana.html">
+                            <img src="assets/images/products/acana-400.jpg" alt="Acana" loading="lazy">
+                            <h4>Acana グラスフェッドラム</h4>
+                            <p class="rec-reason">グレインフリー希望の方に</p>
+                        </a>
+                    </div>
+                    
+                    <div class="simple-rec-card">
+                        <a href="product-pochi.html">
+                            <img src="assets/images/products/pochi-400.jpg" alt="Pochi" loading="lazy">
+                            <h4>Pochi ワイルドサーモン</h4>
+                            <p class="rec-reason">鶏肉アレルギー対応</p>
                         </a>
                     </div>
                     
@@ -577,7 +376,8 @@
                 
                 <div class="footer-links">
                     <a href="privacy.html">プライバシーポリシー</a>
-                    <a href="contact.html">お問い合わせ</a>
+                    <span class="footer-separator">|</span>
+                    <span class="footer-email">お問い合わせ: ulalaanimal@gmail.com</span>
                 </div>
                 
                 <div class="footer-copyright">
@@ -588,7 +388,6 @@
     </footer>
 
     <!-- ========== Scripts ========== -->
-    <script src="assets/js/data.js"></script>
     <script src="assets/js/script.js"></script>
 
 </body>
